@@ -1,0 +1,13 @@
+[package]
+name = "function-pointers-and-closures"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["function-pointers"]
+function-pointers = []
+closures = []
+async-closures = []
+
+[dependencies]
+tokio.workspace = true

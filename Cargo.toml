@@ -1,0 +1,7 @@
+[workspace]
+
+resolver = "2"
+members = ["videos/2-function-pointers-and-closures"]
+
+[workspace.dependencies]
+tokio = { version = "1.42.0", features = ["rt", "macros"] }
