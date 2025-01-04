@@ -1,7 +1,8 @@
 [workspace]
 
 resolver = "2"
-members = ["videos/2-function-pointers-and-closures"]
+members = ["videos/2-function-pointers-and-closures", "videos/3-polymorphic-async-closures"]
 
 [workspace.dependencies]
-tokio = { version = "1.42.0", features = ["rt", "macros"] }
+futures = "0.3.31"
+tokio = { version = "1.42.0", features = ["rt-multi-thread", "macros"] }
